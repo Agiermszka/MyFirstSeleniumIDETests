@@ -1,0 +1,133 @@
+{
+  "id": "68800ad1-d74f-4ef8-a85c-389a3590ebfe",
+  "version": "2.0",
+  "name": "Basket",
+  "url": "https://www.x-kom.pl",
+  "tests": [{
+    "id": "19e3d1e6-d764-4ebd-807b-ad027822ba7b",
+    "name": "Add a product to the backet",
+    "commands": [{
+      "id": "d3e6a82f-3cbb-404d-be5d-c143f54b4032",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df949f65-7ba0-47af-a382-ebad126a4450",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8915db7-8713-430d-bfda-8f232a2ac8a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.suk8z4-0",
+      "targets": [
+        ["css=.suk8z4-0", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7256f333-f1d4-4d27-9489-c399a3915d68",
+      "comment": "",
+      "command": "type",
+      "target": "css=.suk8z4-0",
+      "targets": [
+        ["css=.suk8z4-0", "css:finder"],
+        ["xpath=//input[@value='motorola']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "motorola"
+    }, {
+      "id": "b5584917-8c3e-4d7c-a1f6-5fa037d651d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1p0xkzn-3 > svg",
+      "targets": [
+        ["css=.sc-1p0xkzn-3 > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ec36ca1-a2f6-4b1c-9648-e3301d817c45",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-162ysh3-1:nth-child(5) .sc-1yu46qn-11 .sc-1tblmgq-1",
+      "targets": [
+        ["css=.sc-162ysh3-1:nth-child(5) .sc-1yu46qn-11 .sc-1tblmgq-1", "css:finder"],
+        ["xpath=//img[@alt='Smartfon / Telefon Motorola Moto G100 5G 8/128GB Iridescent Ocean 90Hz']", "xpath:img"],
+        ["xpath=//div[@id='listing-container']/div[5]/div/div[2]/div/div/a/span/img", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/div/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ceeb4b45-39e9-49af-ba06-4ce33a5e546c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0caa4b87-f711-4ecf-90dd-be2796276b5d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "939af8b4-e6bb-432d-ba81-1cc6293c5921",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,435.20001220703125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83d446a8-711b-49af-a8e6-a29a4112d052",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1hdxfw1-1",
+      "targets": [
+        ["css=.sc-1hdxfw1-1", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div[3]/div[2]/div[2]/div[2]/div/div[2]/div[2]/div/button/span/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1ffe982-c2f0-4fcf-8765-5ddf6d3f5e07",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Przejdź do koszyka",
+      "targets": [
+        ["linkText=Przejdź do koszyka", "linkText"],
+        ["css=.sc-1v4lzt5-11", "css:finder"],
+        ["xpath=(//a[contains(text(),'Przejdź do koszyka')])[2]", "xpath:link"],
+        ["xpath=//div[@id='react-portals']/div[15]/div/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/koszyk')])[4]", "xpath:href"],
+        ["xpath=//div[15]/div/div/div/div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad963dc7-b9af-4344-a485-2c0deadf5d44",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0.800000011920929)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "03ba9034-48c5-431c-a7cb-466c5275a130",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["19e3d1e6-d764-4ebd-807b-ad027822ba7b"]
+  }],
+  "urls": ["https://www.x-kom.pl/"],
+  "plugins": []
+}
